@@ -7,6 +7,7 @@ section {
     background: #2C2D33;
     width: 430px;
     height: 450px;
+    border-radius: 6px;
 }
 
 h2 {
@@ -36,9 +37,36 @@ p {
     font-weight: 400;
     line-height: 16.41px;
     text-align: left;
-    color:#FFFFFF;
+    color: #FFFFFF;
     padding: 6px 0 23px 45px;
 }
+
 .info {
     border-bottom: solid #4F4F4F;
+}
+
+.chart .table {
+    display: flex;
+    padding-top: 18px;
+    padding-left: 29px;
+}
+
+.chart .section-products {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    margin-bottom: 31px;
+
+}
+
+.chart .section-products div {
+    height: 17px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+.chart .section-products div p {
+    padding-left: 9px;
 }
